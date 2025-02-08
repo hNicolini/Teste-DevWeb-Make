@@ -84,7 +84,7 @@ body {
     margin-top: 30px;
 }
 
-.numero_pergunta .but{
+.numero_pergunta #but{
     border: 1px solid orange;
     margin-inline: 5px;
     background-color: #493e3e00;
@@ -93,22 +93,22 @@ body {
 
 }
 
- .numero_pergunta .seta{
+ .numero_pergunta #seta{
     background-color: rgba(250, 235, 215, 0);
     border : none;
     border-color: none;
 }
-.numero_pergunta .but:hover{
+.numero_pergunta #but:hover{
     background-color: orange;
     color: #e0e0e0;
     cursor: pointer;
 }
-.numero_pergunta .seta:hover{
+.numero_pergunta #seta:hover{
     background-color: rgba(252, 143, 0, 0.712);
     cursor: pointer;
 }
 
-.numero_pergunta .but_sec{
+.numero_pergunta #but_sec{
     border: 1px solid orange;
     margin-inline: 5px;
     background-color: #493e3e00;
@@ -176,14 +176,14 @@ body {
     color: #e0e0e0;
     cursor: pointer;
 }
-.numero_pergunta .but_2{
+.numero_pergunta #but_2{
     border: 1px solid orange;
     margin-inline: 5px;
     background-color: #493e3e00;
     color: #e0e0e0;
     border-radius: 5px;
 
-}.numero_pergunta .but_3{
+}.numero_pergunta #but_3{
     border: 1px solid orange;
     margin-inline: 5px;
     background-color: #493e3e00;
@@ -191,12 +191,12 @@ body {
     border-radius: 5px;
 
 }
-.numero_pergunta .but_3:hover{
+.numero_pergunta #but_3:hover{
     background-color: orange;
     color: #e0e0e0;
     cursor: pointer;
 }
-.numero_pergunta .but_2:hover{
+.numero_pergunta #but_2:hover{
     background-color: orange;
     color: #e0e0e0;
     cursor: pointer;
