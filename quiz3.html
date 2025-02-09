@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Front-End</title>
+    <link rel="stylesheet" href="quiz.css"> 
+</head>
+<body> 
+    <p class="titulo"><b>TESTE</b> DEV FRONT-END</p>
+    <div class="box">
+    <div id='head'><p id="numero">1 </p><p id="pergunta">O que acontece quando você define position: absolute; em um elemento sem definir top, left, right ou bottom?</p></div>
+        <div id="resposta" class="btn-container">
+            <button id="btn" onclick=habilitarRedirecionamento()>O elemento fica centralizado na tela.</button>
+            <button id="btn2" onclick=habilitarRedirecionamento()>O elemento desaparece da página.</button>
+            <button id="btn_v" onclick=habilitarRedirecionamento()> O elemento mantém sua posição original, mas sai do fluxo normal do documento.</button>
+            <button id="btn3" onclick=habilitarRedirecionamento()>O navegador exibe um erro e impede a renderização da página.</button>
+           
+        </div>
+    </Div>
+
+    <div class="numero_pergunta">
+        <button id="seta"><img src="img/66822.png" alt="1" width="25px" height="25px" onclick= seta3()></button>
+        <Button id="but_2" onclick=redirecionar1()>1</Button>
+        <Button id="but_3" onclick= voltar()>2</Button>
+        <Button id="but_sec">3</Button>
+    </div>
+    <div id="finalizar">
+        <button id="btn_finalizar" onclick= finalizar()>Finalizar</button>
+    </div>
+    
+   
+
+
+    
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -201,3 +201,34 @@ body {
     color: #e0e0e0;
     cursor: pointer;
 }
+#finalizar #btn_finalizar{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Neogrotesk Small Caps Black;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -40px;
+    margin-left: 65%;
+    background-color: #493e3e00;
+    color: #e0e0e0;
+}
+#finalizar #btn_finalizar:hover{
+    background-color: orange;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+#parabens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
+    font-size: 50px;
+    font-family: Neogrotesk Small Caps Black;
+    margin-top: 100px;
+    border: 1px solid none;
+}
+img{
+    margin-left: 37%;
+}

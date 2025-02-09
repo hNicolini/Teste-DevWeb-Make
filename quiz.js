@@ -8,6 +8,10 @@ function redirecionar2() {
         window.location.href = "quiz2.html";
     }
 }
+
+function voltar(){
+    window.location.href = "quiz2.html";
+}
 function redirecionar1(){
     window.location.href = "quiz.html";
 }
@@ -15,6 +19,13 @@ function redirecionar3() {
     if (podeRedirecionar) {
         window.location.href = "quiz3.html";
     }
+}
+
+function seta2(){
+    window.location.href = "quiz.html";
+}
+function seta3(){
+    window.location.href = "quiz2.html";
 }
 
 function correto() {
@@ -47,3 +58,8 @@ if (podeRedirecionar == true) {
     pagina2.addEventListener('click', redirecionar);
 }
 
+function finalizar() {
+    if (podeRedirecionar == true){
+        window.location.href = "final.html";
+}
+}
